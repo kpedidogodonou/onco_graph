@@ -17,7 +17,7 @@ df = load_data()
 st.title("Onco Graph Data Explorer")
 
 st.info(
-    'Use this page to explore the dataset that powered the Knowledge Graph used by the LLM. '
+    'Use this page to explore the dataset that powered the Knowledge Graph used by the LLM. There is a filter in the left panel (hided) that you can used to filter the relevant data'
     '[GDC Data Portal](https://portal.gdc.cancer.gov/)',
     icon="ℹ️"
 )
