@@ -14,7 +14,7 @@ import os
 
 
 
-st.set_page_config(page_title="Onco Graph", page_icon="✨", layout="wide")
+st.set_page_config(page_title="Onco Graph", page_icon="🕸️", layout="wide")
 
 
 load_dotenv()
