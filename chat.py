@@ -1,5 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain.agents import create_openai_tools_agent, AgentExecutor
+from langchain.agents import AgentExecutor
+from langchain.agents.openai_tools.base import create_openai_tools_agent
 from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from htbuilder import div, styles
@@ -42,7 +43,7 @@ def execute_sparql_query(query: str):
         dict: {"vars": [...], "rows": [...], "row_count": int} or [] on error
     """
     # Load the graph
-    GRAPH_FILE = "../data/processed/knowledge_graph.ttl"
+    GRAPH_FILE = "./data/processed/knowledge_graph.ttl"
     g = rdflib.Graph()
     g.parse(GRAPH_FILE, format="turtle")
 

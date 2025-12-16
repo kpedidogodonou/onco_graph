@@ -7,7 +7,7 @@ st.html(div(style=styles(font_size=rem(5), line_height=1))["📑"])
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/processed/completed_clinical_df.csv")
+    df = pd.read_csv("./data/processed/completed_clinical_df.csv")
     # age appears to be in days -> convert to years for filtering
     df["age_years"] = (df["diagnoses.age_at_diagnosis"] / 365.25).round(1)
     return df
