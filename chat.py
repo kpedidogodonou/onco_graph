@@ -232,7 +232,7 @@ agent_executor = AgentExecutor(
 SUGGESTIONS = {
     ":blue[:material/local_library:] Count total patients": "Count total patients",
     ":green[:material/database:] How many men have melanoma?": "How many men have melanoma?",
-    ":orange[:material/multiline_chart:] How many women over age 40?": "How many women over age 40?",
+    ":orange[:material/multiline_chart:] How many women have a least  40 years old?": "How many women over age 40?",
     ":violet[:material/apparel:] What are the 3 most popular cancer type and they cases counts?": "What are the 3 most popular cancer type and they cases counts?",
     ":red[:material/deployed_code:] give me the ID and the age of the 3 youngest woman with melanoma": "give me the ID and the age of the 3 youngest woman with melanoma.",
 }
