@@ -13,7 +13,7 @@ The Knowledge Graph aggregates **clinical records for thousands of patients** ac
 
 ## Data Source
 - **GDC Data Portal**: https://portal.gdc.cancer.gov/
-- 
+  
 ## Services 
 - EMBL-EBI Ontology Lookup Service -  https://www.ebi.ac.uk/ols4/
 - OpenAI API - https://openai.com/api/
